@@ -1,5 +1,4 @@
-//Программа "Гараж". Даёт возможность пользователю добавить транспорт,
-//посмотреть, что есть в гараже, и очистить гараж.
+//Program "Garage". User can to add a trasport, to observe garage and to clean out garage.
 
 #include <iostream>
 #include <vector>
@@ -11,7 +10,7 @@ void getLine(string& str);
 char getChar();
 void tableline();
 
-//Описание классов
+//Classes description
 
 class transport
 {
@@ -67,7 +66,7 @@ int main()
   return 0;
   }
 
-//Описание методов
+//Methods description
 
 void getLine(string& str)
 {
